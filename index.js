@@ -5,14 +5,14 @@ function happyHolidays() {
 
 function happyHolidaysTo(name) {
   return "Happy holidays, ${name}!"
-  var happyHolidaysTo;('you')
+  var name('you')
 }
 
 
 function happyHolidayTo(holiday, name) {
   return "Happy $(holiday), ${name}!"
-  happyHolidayTo('christmas')
-  happyHolidayTo('meredith')
+  holiday('christmas')
+  name('meredith')
   
 }
 
